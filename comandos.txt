@@ -1,2 +1,10 @@
 1- grep -i 'quijote' el_quijote.txt | wc -l
-2- 
+2- grep -icv 'quijote' el_quijote.txt
+3- grep -icr 'quijote' *
+4- grep -icr 'quijote' * | grep -v ":0"
+5- sed -i "s/panza/barriga/g" el_quijote.txt
+6- sed -i 's/panza/barriga/gi' el_quijote.txt
+7- head -c 4 el_quijote.txt
+8- head -c 4000 el_quijote.txt
+9- sed -n '14,25p' el_quijote.txt
+10- sort -f -r el_quijote.txt
